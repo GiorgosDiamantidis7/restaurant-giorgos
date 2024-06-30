@@ -1,3 +1,11 @@
+Restaurant.create!(
+  [
+    { name: 'The Red Fox', address: '123 Forest Lane' },
+    { name: 'Wise Owl Café', address: '456 Tree Top Street' },
+    { name: 'Panda Paradise', address: '789 Bamboo Grove' }
+  ]
+)
+
 # This file should ensure the existence of records required to run the application in every environment (production,
 # development, test). The code here should be idempotent so that it can be executed at any point in every environment.
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).

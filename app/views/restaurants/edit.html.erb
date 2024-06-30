@@ -1,0 +1,8 @@
+<h1>Restaurants#edit</h1>
+<p>Find me in app/views/restaurants/edit.html.erb</p>
+<%= render "form", restaurant: @restaurant %>
+<%= form_with model: restaurant do |f| %>
+  <%= f.label :name %>
+  <%= f.label :address %>
+<% end %>
+

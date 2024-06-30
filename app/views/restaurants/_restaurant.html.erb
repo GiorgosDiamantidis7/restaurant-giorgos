@@ -1,0 +1,8 @@
+<div class="border p-3 rounded mb-4">
+<div class="d-flex justify-content-center align-item-center p-2">
+ <span class="me-auto"><%= restaurant.name %></span>
+ <%= link_to "Delete" , restaurant_path(restaurant), data: {turbo_method: :delete}, class: 'btn btn-danger me-3' %>
+ <%= link_to 'Edit', edit_restaurant_path(restaurant), class: 'btn btn-warning' %>
+  <%# <strong>Address:</strong> <%= restaurant.address %>
+  </div>
+</div>
